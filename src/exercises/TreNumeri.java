@@ -17,6 +17,11 @@ class TreNumeri {
 		this.num2=num2;
 		this.num3=num3;
 	}
+	TreNumeri(){
+		num1=0;
+		num2=0;
+		num3=0;
+	}
 	// metodi
 	double minimo(){
 		if(num1<num2 && num1<num3){
@@ -50,4 +55,5 @@ class TreNumeri {
 				+media();
 		return res;
 	}
+
 }
