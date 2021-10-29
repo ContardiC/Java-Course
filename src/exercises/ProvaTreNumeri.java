@@ -10,7 +10,7 @@ class ProvaTreNumeri {
 	public static void main(String[] args){
 		
 		TreNumeri media=new TreNumeri(7,9,16);
-		System.out.println("La media dei tre numeri : "+media.m());
+		System.out.println("La media dei tre numeri : "+media.media());
 		System.out.println("Il minore dei tre numeri : "+media.minimo());
 
 	}
