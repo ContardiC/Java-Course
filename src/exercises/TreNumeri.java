@@ -56,7 +56,11 @@ class TreNumeri {
 	
 	public String toString(){
 		String res;
-		res="i 3 numeri sono: "+num1+" "+num2+" "+num3+"\nil minore tra i tre e': "+minimo()+"\nil maggiore tra i tre e': "+massimo()+"\nla media tra i tre e': "+media();
+		res="i 3 numeri sono: "
+				+num1+" "+num2+" "+num3+
+				"\nil minore tra i tre e': "+minimo()+"\nil maggiore tra i tre e': "+massimo()+
+				"\nla media tra i tre e': "
+				+media();
 		return res;
 		
 	}
